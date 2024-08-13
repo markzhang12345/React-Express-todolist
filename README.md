@@ -4,6 +4,8 @@
 
 使用`git clone`将项目 clone 到本地。
 
+使用`npm i`下载相应依赖。
+
 运行`num run start`或`npm run dev`启动前端部分的运行或调试模式。
 
 运行`npm run serverstart`或`npm run devstart`启动后端部分运行或调试模式。
