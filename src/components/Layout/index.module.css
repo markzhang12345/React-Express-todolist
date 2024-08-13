@@ -1,0 +1,22 @@
+.header {
+  background-color: rgb(96, 149, 195);
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 8px;
+  color: aliceblue;
+  display: inline;
+}
+
+.logo {
+  margin-right: 8px;
+}
+
+.user {
+  float: right;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.sectioninner {
+  height: 100vh;
+}

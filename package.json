@@ -1,0 +1,40 @@
+{
+  "name": "my-todolist",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "devserver": "nodemon ./src/server/bin/www",
+    "startserver": "node ./src/server/bin/www"
+  },
+  "dependencies": {
+    "antd": "^5.18.3",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.4.4",
+    "morgan": "~1.9.1",
+    "next": "13.2.3",
+    "react": "^18",
+    "react-cookie": "^7.2.0",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint-config-next": "14.2.4",
+    "typescript": "^5.5.2"
+  }
+}

@@ -1,0 +1,11 @@
+.submit {
+  width: 30%;
+  position: fixed;
+  top: 20%;
+  left: 35%;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-style: solid;
+  border-color: rgb(96, 149, 195);
+  border-width: 5px;
+}

@@ -1,0 +1,9 @@
+.container {
+  width: 400px;
+  height: 200px;
+  position: fixed;
+  left: 35%;
+  top: 30%;
+  padding: 24px;
+  border-radius: 8px;
+}
