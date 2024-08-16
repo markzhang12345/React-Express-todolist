@@ -24,7 +24,6 @@ export default function Register() {
         router.push("/login");
       })
       .catch((err) => {
-        console.log(err);
         message.error("注册失败");
         message.error(err.response.data.message);
       });

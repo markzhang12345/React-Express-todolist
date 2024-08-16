@@ -8,7 +8,6 @@ import { CookiesProvider } from "react-cookie";
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
   const { state } = useAuth();
-  console.log(state);
   return (
     <CookiesProvider>
       <AuthProvider>
