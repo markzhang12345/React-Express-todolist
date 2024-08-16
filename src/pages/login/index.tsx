@@ -24,7 +24,7 @@ export default function Login() {
           payload: { username: res.data.username },
         });
 
-        // 设置cookie
+        // 设置登录状态cookie
         setCookie("user", JSON.stringify(res.data.username), {
           path: "/",
           maxAge: 3600,
@@ -34,7 +34,6 @@ export default function Login() {
       })
       .catch((err) => {
         message.error("登录失败");
-        console.log(err);
         message.error(err.response.data.message);
       });
   };

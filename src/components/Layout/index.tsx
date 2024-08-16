@@ -23,11 +23,12 @@ export function Layout({ children }: { children: ReactNode }) {
   }, [cookies.user, state.isAuthenticated, dispatch]);
 
   const handleMenuClick = () => {
-    axios.post(
-      "http://localhost:5000/api/logout",
-      {},
-      { withCredentials: true }
-    );
+    axios
+      .post("http://localhost:5000/api/logout", {}, { withCredentials: true })
+      .then()
+      .catch((err) => {
+        message.error(err);
+      });
     // 清除 Cookie
     removeCookie("user", { path: "/" });
     dispatch({ type: "LOGOUT" });
